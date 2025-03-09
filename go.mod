@@ -1,8 +1,8 @@
 module github.com/openshift/file-integrity-operator
 
-go 1.22.0
+go 1.23.0
 
-toolchain go1.22.5
+toolchain go1.23.7
 
 require (
 	github.com/cenkalti/backoff/v4 v4.3.0
@@ -24,7 +24,7 @@ require (
 	github.com/sirupsen/logrus v1.9.3
 	github.com/spf13/cobra v1.8.1
 	github.com/stretchr/testify v1.9.0
-	golang.org/x/mod v0.20.0
+	golang.org/x/mod v0.24.0
 	golang.org/x/net v0.28.0
 	k8s.io/api v0.30.3
 	k8s.io/apiextensions-apiserver v0.30.3
