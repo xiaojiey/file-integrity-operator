@@ -2,16 +2,13 @@
 // Use of this source code is governed by a BSD-style
 // license that can be found in the LICENSE file.
 
-//go:build go1.20
-// +build go1.20
+//go:build go1.21
+// +build go1.21
 
-package ssa
+package versions
 
-import (
-	"go/ast"
-	"go/token"
-)
+import "go/build/constraint"
 
 func init() {
-	rangePosition = func(rng *ast.RangeStmt) token.Pos { return rng.Range }
+	ConstraintGoVersion = constraint.GoVersion
 }
