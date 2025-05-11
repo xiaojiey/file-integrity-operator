@@ -2,7 +2,7 @@ module github.com/openshift/file-integrity-operator
 
 go 1.22.0
 
-toolchain go1.22.5
+toolchain go1.24.3
 
 require (
 	github.com/cenkalti/backoff/v4 v4.3.0
