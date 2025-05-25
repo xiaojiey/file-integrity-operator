@@ -17,7 +17,7 @@ require (
 	github.com/pborman/uuid v1.2.1
 	github.com/pkg/errors v0.9.1
 	github.com/prometheus-operator/prometheus-operator/pkg/apis/monitoring v0.75.2
-	github.com/prometheus-operator/prometheus-operator/pkg/client v0.75.2
+	github.com/prometheus-operator/prometheus-operator/pkg/client v0.82.2
 	github.com/prometheus/client_golang v1.19.1
 	github.com/prometheus/client_model v0.6.1
 	github.com/securego/gosec/v2 v2.20.1-0.20240525090044-5f0084eb01a9
